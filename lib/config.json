@@ -1,0 +1,15 @@
+{
+  "development": {
+    "url":"mongodb://localhost:27017/eynos",
+    "secret":"!@#$%^&*()1234567890"
+   },
+  "testing": {
+      "url":"",
+      "secret":"!@#$%^&*()1234567890"
+   },
+  "production": {
+      "url":"",
+      "secret":"!@#$%^&*()1234567890",
+      "hashSecret":"Hello@!#()$%^&*)0987654321"
+  }
+}
